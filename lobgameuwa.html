@@ -1,0 +1,31 @@
+---
+layout: page
+title: lob game uwa
+description: Ranks individuals from given transaction list obtained from lob game
+---
+
+
+
+<p>
+    The individual with the highest negative number wins for liqudity traders (lowest transaction costs)
+    <br><br>
+    For each buy trade i, trading costs is: Volume x (TPi - VWAP)
+    <br>
+    For each sell trades j, trading costs is: Volume x (VWAP - TPj)
+    <br><br>
+    NOTE: It is assumed that every liquidity trader meets their liquidity requirments
+    because we are not given public data of everyone's liquidity requirements.
+    <b>Therefore this will never be accurate without the cooperation of all participants
+    or UWA business school :(</b>
+</p>
+
+<input type="file" name="file" id="myfile">
+<table class="table-fill" id="mytable">
+    <thead>
+        <tr>
+            <th class="table-title">Rank</th>
+            <th class="table-title">Name</th>
+            <th class="table-title">Score</th>
+        </tr>
+    </thead>
+</table>
