@@ -26,6 +26,14 @@ $baseurl: '{{ site.baseurl }}/images';
 		grid: ( gutters: 1.5em )
 	));
 
+/* Custom styles */
+.img-info {
+	transition: all 0.3s;
+	&:hover {
+		opacity: 0.5;
+	}
+}
+
 /* Basic */
 
 	@-ms-viewport {
